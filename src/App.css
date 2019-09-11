@@ -30,7 +30,10 @@
 .numberButton {
     background-color: #184379;
     color: #fff;
-   
+}
+.numberButton:nth-child(10) {
+    border-radius: 30px;
+    width: 188px;
 }
 .operatorButton {
     background-color: #237293;
@@ -54,9 +57,7 @@
     justify-content: space-between;
     margin-left: 24px;
 }
-.left-panel .btn {
-    border: 2px solid blue;
-}
+
 .right-panel {
     margin-right: 14px;
 }
